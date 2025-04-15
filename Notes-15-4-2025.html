@@ -1,0 +1,315 @@
+<html>
+        <head><title>Downloaded HTML</title></head>
+        <body>
+            <pre style="white-space: pre-wrap; word-wrap: break-word;"><!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>차야 차야 여행 - 진주 관광 패키지</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&display=swap" rel="stylesheet">
+  <style>
+    /* Global Styles */
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      scroll-behavior: smooth;
+    }
+    nav {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 1rem;
+      position: fixed;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+    }
+    .logo {
+      font-weight: 700;
+      font-size: 1.5rem;
+      color: #4a6baf;
+    }
+    nav ul {
+      display: flex;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+    nav ul li a:hover {
+      color: #4a6baf;
+    }
+    header {
+      height: 100vh;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1538970272646-f61fabb3be6a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      padding: 0 2rem;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+    header p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin-bottom: 2rem;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+    .cta-button {
+      background: #4a6baf;
+      color: white;
+      padding: 0.8rem 2rem;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 700;
+      transition: all 0.3s;
+    }
+    .cta-button:hover {
+      background: #3a5a9f;
+      transform: translateY(-3px);
+    }
+    .section {
+      padding: 6rem 2rem;
+      text-align: center;
+    }
+    .dark {
+      background: #f5f5f5;
+    }
+    h2 {
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      color: #4a6baf;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+    .card h3 {
+      color: #4a6baf;
+      margin-top: 0;
+    }
+    .price {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #4a6baf;
+      margin-bottom: 1rem;
+    }
+    .price span {
+      font-size: 1rem;
+      color: #666;
+      display: block;
+    }
+    .table-container {
+      overflow-x: auto;
+      margin: 2rem auto;
+      max-width: 800px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+    th, td {
+      padding: 1rem;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+    th {
+      background: #4a6baf;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background: #f9f9f9;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      margin-top: 2rem;
+    }
+    /* Mobile Responsiveness */
+    @media (max-width: 768px) {
+      nav ul {
+        display: none;
+      }
+      header h1 {
+        font-size: 2rem;
+      }
+      .section {
+        padding: 4rem 1rem;
+      }
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">차야 차야 여행</div>
+    <ul>
+      <li><a href="#about">진주 소개</a></li>
+      <li><a href="#package">패키지</a></li>
+      <li><a href="#schedule">일정</a></li>
+      <li><a href="#contact">문의</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header>
+    <h1>차야 차야 여행</h1>
+    <p>역사와 자연이 공존하는 진주로의 초대</p>
+    <a href="#package" class="cta-button">패키지 보기</a>
+  </header>
+
+  <!-- Jinju Highlights -->
+  <section id="about" class="section">
+    <h2>진주 여행 하이라이트</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>진주성</h3>
+        <p>임진왜란의 역사가 살아숨쉬는 곳. 야간 축제로 유명합니다.</p>
+      </div>
+      <div class="card">
+        <h3>남강 유등 축제</h3>
+        <p>아름다운 등불이 강을 밝히는 특별한 경험.</p>
+      </div>
+      <div class="card">
+        <h3>승산리 한옥마을</h3>
+        <p>전통 한옥에서의 체험과 평화로운 분위기.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Travel Package -->
+  <section id="package" class="section dark">
+    <h2>차야 차야 여행 패키지</h2>
+    <p class="price">365,000 KRW <span>모든 비용 포함</span></p>
+    <div class="grid">
+      <div class="card">
+        <h3>포함 사항</h3>
+        <ul>
+          <li>1박 2일 호텔 숙박</li>
+          <li>진주 두루치기, 한식 쿠킹 클래스</li>
+          <li>한복 체험 및 축제 입장권</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>준비물</h3>
+        <ul>
+          <li>신분증</li>
+          <li>카메라</li>
+          <li>편한 신발</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Schedule Table -->
+  <section id="schedule" class="section">
+    <h2>여행 일정</h2>
+    <div class="table-container">
+      <table>
+        <tr>
+          <th>첫째 날</th>
+          <th>둘째 날</th>
+        </tr>
+        <tr>
+          <td>11:00 - 진주성 방문</td>
+          <td>10:00 - 한옥마을 체험</td>
+        </tr>
+        <tr>
+          <td>13:30 - 점심 (진주식당)</td>
+          <td>12:30 - 한복 체험</td>
+        </tr>
+        <tr>
+          <td>18:00 - 남강 유등 축제</td>
+          <td>13:10 - 한식 쿠킹 클래스</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section dark">
+    <h2>문의하기</h2>
+    <p>☎ 051-555-3848</p>
+    <p>MASHPORT</p>
+  </section>
+
+  <footer>
+    <p>© <span id="year"></span> 차야 차야 여행. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Smooth scrolling for navigation
+    document.querySelectorAll('nav a').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+
+    // Dynamic year for footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Add animation to cards on scroll
+    const cards = document.querySelectorAll('.card');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = 1;
+          entry.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, { threshold: 0.1 });
+
+    cards.forEach(card => {
+      card.style.opacity = 0;
+      card.style.transform = 'translateY(20px)';
+      card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+      observer.observe(card);
+    });
+  </script>
+</body>
+</html></pre>
+        </body>
+    </html>
